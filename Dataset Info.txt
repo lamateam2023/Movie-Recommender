@@ -1,0 +1,9 @@
+
+
+About the Dataset
+The original dataset file contain metadata for all 45,000 movies listed in the Full MovieLens Dataset created by GroupLens (https://grouplens.org/datasets/movielens/latest/) which is a research lab in the Department of Computer Science and Engineering at the University of Minnesota, Twin Cities specializing in recommender systems, online communities, mobile and ubiquitous technologies, digital libraries, and local geographic information systems.
+
+The dataset consists of movies released on or before July 2017. This dataset captures feature points like cast, crew, plot keywords, budget, revenue, posters, release dates, languages, production companies, countries, TMDB vote counts, and vote averages.
+
+For our project, we used a subset of this dataset (30,000 movies) due to the 12GB limitation of free Colab account. We further performed data wrangling to transform this dataset to a cleaner version to sute the purpose of this project. therfore, the cleaned dataset contained the columns id, title, release_date, overview, vote_average, and vote_count
+
